@@ -300,6 +300,15 @@ class _StoryPageState extends State<StoryPage> {
               ),
             ),
 
+            // PROGRESS BAR
+            LinearProgressIndicator(
+              value: (_storyBrain.currentSceneIndex + 1) /
+                  _storyBrain.totalScenes,
+              backgroundColor: const Color(0xFFBBBEF6),
+              valueColor: const AlwaysStoppedAnimation<Color>(_indigoLight),
+              minHeight: 4,
+            ),
+
             // SCROLLABLE CONTENT
             Expanded(
               child: SingleChildScrollView(
