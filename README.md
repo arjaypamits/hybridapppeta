@@ -1,17 +1,18 @@
-# survive_finals_week
+# Survive Finals Week
 
-A new Flutter project.
+A "Choose Your Own Adventure" Flutter mobile app built as a school project.
 
-## Getting Started
+## Story
+Navigate through a stressful finals week — study or slack off, cram or skip,
+and see if you survive. Three possible endings: **Good**, **Neutral**, or **Bad**.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter 3 + Dart (StatefulWidget, OOP scene model)
+- audioplayers ^6.0.0 (sound effects for each choice and ending)
+- Custom PNG scene banners and WAV audio assets
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+```bash
+flutter pub get
+flutter run
+```
