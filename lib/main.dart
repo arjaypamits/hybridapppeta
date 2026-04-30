@@ -190,13 +190,13 @@ class _StoryPageState extends State<StoryPage> {
             ],
           ),
           content: Padding(
-            padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+            padding: const EdgeInsets.fromLTRB(16, 18, 16, 4),
             child: Text(
               scene.storyText,
               style: const TextStyle(
                 fontSize: 14,
                 color: _textDark,
-                height: 1.6,
+                height: 1.65,
               ),
             ),
           ),
